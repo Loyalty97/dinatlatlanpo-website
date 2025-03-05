@@ -1,0 +1,200 @@
+/* Global styles */
+body {
+    font-family: Verdana, Geneva, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: white; /* Default text color */
+    background-color: #260ef7; /* Light background for better visibility */
+}
+
+header {
+    padding: 1rem;
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black background */
+}
+
+/* Adding space between input and textarea */
+input, textarea {
+    margin-bottom: 10px; /* Adjust this value to create more or less space */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 400px;
+}
+/* Style for the input, textarea, and button */
+input, textarea, button {
+    margin-bottom: 15px; /* Space between elements */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 400px;
+    box-sizing: border-box; /* Ensures padding and borders don't affect overall width */
+}
+
+/* Set a specific height for the textarea */
+textarea {
+    height: 100px;
+}
+
+/* Green button style */
+button {
+    background-color: #4CAF50; /* Green color */
+    color: white; /* White text */
+    border: none; /* No border */
+    cursor: pointer; /* Changes the cursor to a pointer when hovered */
+    padding: 12px 20px; /* Adjust button padding */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 16px; /* Font size */
+    width: auto; /* Auto width for the button */
+    display: block; /* Makes the button a block-level element to sit under the textarea */
+    margin-top: 10px; /* Add a little margin above the button */
+}
+
+button:hover {
+    background-color: #45a049; /* Darker green when hovering */
+}
+/* Center the form in the middle of the page */
+form {
+    display: flex;
+    flex-direction: column; /* Stack input, textarea, and button vertically */
+    align-items: center; /* Center elements horizontally */
+    justify-content: center; /* Center elements vertically (optional) */
+    height: 100vh; /* Take up full viewport height */
+    margin: 0; /* Remove default margin */
+}
+
+/* Style for the input, textarea, and button */
+input, textarea, button {
+    margin-bottom: 15px; /* Space between elements */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 400px;
+    box-sizing: border-box; /* Ensures padding and borders don't affect overall width */
+}
+
+/* Set a specific height for the textarea */
+textarea {
+    height: 100px;
+}
+
+/* Green button style */
+button {
+    background-color: #4CAF50; /* Green color */
+    color: white; /* White text */
+    border: none; /* No border */
+    cursor: pointer; /* Changes the cursor to a pointer when hovered */
+    padding: 12px 20px; /* Adjust button padding */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 16px; /* Font size */
+    width: auto; /* Auto width for the button */
+    display: block; /* Makes the button a block-level element to sit under the textarea */
+    margin-top: 10px; /* Add a little margin above the button */
+}
+
+button:hover {
+    background-color: #45a049; /* Darker green when hovering */
+}
+
+/* Optional: Add some space between the label and form elements */
+label {
+    margin-bottom: 5px;
+    display: block; /* Makes the label block to prevent overlap */
+}
+
+
+/* Optional: Add some space between the label and form elements */
+label {
+    margin-bottom: 5px;
+    display: block; /* Makes the label block to prevent overlap */
+}
+
+
+textarea {
+    height: 100px; /* Optional: set a specific height for the textarea */
+}
+
+/* Optional: Add some space between the label and the form elements */
+label {
+    margin-bottom: 5px;
+    display: block;
+}
+
+/* Style for the logo */
+.logo {
+    width: 50px; /* Adjust the width to make the logo smaller or bigger */
+    height: 50px; /* Make the height equal to width to ensure it's round */
+    border-radius: 50%; /* This makes the image round */
+    object-fit: cover; /* Ensures the logo scales correctly without distortion */
+}
+
+.logo {
+    width: 50px; /* Adjust the size of the logo */
+    height: auto;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 8px;
+}
+
+nav ul li a {
+    color: whitesmoke;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: rgba(12, 11, 11, 0.3); /* Light transparent hover effect */
+}
+
+main {
+    padding: 2rem;
+    text-align: center;
+    margin: 20px;
+    border-radius: 10px;
+    background-color: rgb(0, 0, 3); /* Slightly transparent background */
+}
+
+/* Team members container */
+.team-container {
+    display: flex;
+    justify-content: center;  /* Center the items horizontally */
+    align-items: center;  /* Align the items vertically */
+    gap: 25px;  /* Add space between the items */
+    flex-wrap: wrap; /* Allow the items to wrap on smaller screens */
+}
+
+/* Individual team member styling */
+.team-member {
+    text-align: center;
+}
+
+/* Image styling */
+.team-member img {
+    border-radius: 5%; /* Make the image round */
+    width: 200px; /* Set the width of the image */
+    height: 200px; /* Ensure the height is equal to width to make it round */
+    object-fit: cover; /* Ensures the image doesn't stretch */
+    margin-bottom: 2px; /* Space between image and name */
+}
+
+/* Footer styles */
+footer {
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    position: relative;
+    z-index: 10;
+}
